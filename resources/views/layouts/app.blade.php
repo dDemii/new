@@ -36,7 +36,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item "><a href="/" class="nav-link {{request()->is('/') ? 'active' : ''}}">Home</a></li>
                         <li class="nav-item "><a href="/menu" class="nav-link {{request()->is('menu') ? 'active' : ''}}">Menu</a></li>
-                        <li class="nav-item "><a href="#" class="nav-link {{request()->is('contact') ? 'active' : ''}}">Contact</a></li>
+                        <li class="nav-item "><a href="/Contact" class="nav-link {{request()->is('Contact') ? 'active' : ''}}">Contact</a></li>
 
                     </ul>
 

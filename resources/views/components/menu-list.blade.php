@@ -8,7 +8,7 @@
                     <h4 class="card-title menu">Rib-eye Steak</h4>
                     <h4 class="card-title restaurant">Rolando's Cafe</h4>
                     <p class="card-title menurecipe">Lorep ipsum pakuluan ihawin bahala na</p>
-                    <a href="{{ $menu->video_url }}" target="_blank">Watch video</a>
+                    
                     <p class="card-text price">P3199.00</p>
                     <a href="#" class="btn-dark-green text-decoration-none">Buy now</a>
                 </div>

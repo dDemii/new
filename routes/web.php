@@ -17,3 +17,5 @@ Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/menu', [MenuController::class, 'index'])->name('menu');
+Route::get('/Contact', [App\Http\Controllers\ContactController::class, 'index'])->name('Contact');
+Route::post('/Contact', [App\Http\Controllers\ContactController::class, 'store'])->name('contact.us.store');
