@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter&family=Montserrat&family=Playfair+Display&family=Roboto:wght@700&display=swap');
+
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navbar::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+a.navbar-brand {
+    color: #FFF;
+}
+
+a.navbar-brand:hover {
+    color: #FFA31A;
+}
+
+a.nav-link {
+    color: #FFF;
+}
+
+a.nav-link:hover {
+    color: #FFA31A;
+}
+
+.navbar-nav .active{
+    color: #FFF;
+    border-bottom: #FFA31A solid 3px;
+}
+
+.image-holder{
+    background: url("https://images.unsplash.com/photo-1679907345383-41e9a40a58c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-holder2{
+    background: url("https://images.unsplash.com/photo-1647264067640-7d0a7e898f7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.text-holder{
+    background-color: black;
+    color: white;
+}
+.text-amber{
+    color:#FFA31A;
+    font-family: 'Archivo Black';
+}
+.heading-text{
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-size: 7vw;
+}
+.subtitle{
+    font-size: 1.75vw;
+    letter-spacing: 3px;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+.text-container{
+    margin-top: 150px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Archivo Black';
+    font-size: 4vw;
+}
+
+.about-us {
+    color: #FFA31A;
+    font-family: 'Archivo Black';
+    font-size: 3vw; 
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+
+  .text-container2{
+    margin-top: 70px;
+}
+
+
+  .who {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
+    color: #fff;
+    margin-left: 4vw;
+  }
+
+  .subtitle2{
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    font-family: 'Montserrat';
+    margin-top: 1vw;
+    text-align: left;
+    color: #fff;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.dev {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFF;
+    letter-spacing: 1px;
+}
